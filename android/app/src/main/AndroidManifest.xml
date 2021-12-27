@@ -48,6 +48,10 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+        <!-- Force clean up the leak VM -->
+        <meta-data
+            android:name="io.flutter.embedding.android.LeakVM"
+            android:value="false" />
     </application>
 
 </manifest>
